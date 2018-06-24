@@ -1,0 +1,94 @@
+@font-face{
+    font-family:'Walter';
+    src: url('../fonts/Walter.ttf');
+}
+@font-face{
+    font-family:'WaltographUI';
+    src: url('../fonts/waltographUI.ttf');
+    
+    
+}
+@font-face{
+    font-family:'Waltograph42';
+    
+    src: url('../fonts/waltograph42.otf');
+}
+body{
+    width: 100%;
+    margin:0 auto;
+    background:url('../images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+h1{
+    font-size:62px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-family: "WaltographUI", "Sans-serif";
+    color:#fff;
+    font-weight:200px;
+}
+.info{
+    width:60%;
+    margin: 0 auto;
+    background: #ffffffe0;
+    font-family: 'Oswald', sans-serif;
+    padding:20px 0;
+}
+.beginning{
+    text-align: center;
+    color:#140f81;
+    font-size:36px;
+    padding-bottom: 40px;
+    
+}
+#new-game{
+    margin:0 auto;
+    width:200px;
+    text-align: center;
+    padding:20px;
+    font-size: 18px;
+    background-color:#140f81;
+    color:#fff;
+    margin-bottom: 20px;
+}
+#question{
+    width: 80%;
+    font-size:32px;
+    text-align: center;
+    margin:0 auto;
+    font-weight: 600;
+}
+#answer0, #answer1, #answer2, #answer3{
+  
+    
+    font-size:28px;
+    text-align: center;
+    font-weight:400;
+}
+#timer{
+    font-size:24px;
+    margin: 0 auto;
+    text-align:center;
+}
+#correct-answer{
+    font-size:24px;
+    margin: 0 auto;
+    text-align:center;
+}
+#results{
+    width: 80%;
+    font-size:32px;
+    text-align: center;
+    margin:0 auto;
+    font-weight: 600;
+}
+#gif{
+    margin:0 auto;
+    text-align:center;
+}
